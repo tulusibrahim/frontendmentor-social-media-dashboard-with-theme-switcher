@@ -80,9 +80,9 @@ function App() {
           <Flex>
             {
               windowSize > 800 ?
-                <Switch size={'lg'} defaultChecked={true} colorScheme='teal' onChange={toggleColorMode} transform='rotate(180deg)' />
+                <Switch size={'lg'} defaultChecked={true} colorScheme='teal' onChange={toggleColorMode} />
                 :
-                <Switch size={'md'} defaultChecked={true} colorScheme='teal' onChange={toggleColorMode} transform='rotate(180deg)' />
+                <Switch size={'md'} defaultChecked={true} colorScheme='teal' onChange={toggleColorMode} />
             }
           </Flex>
         </Flex>
